@@ -7,6 +7,9 @@ public class Circulo_JLP extends FiguraGeometrica_JLP {
 	public Circulo_JLP(double r, String tipoFigura) {
 		super(tipoFigura);
 		radio = r;
+		if(radio<0) {
+			radio*=-1;
+		}
 	}
 
 	@Override
