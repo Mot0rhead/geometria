@@ -23,7 +23,6 @@ public class Rectangulo_JLP extends FiguraGeometrica_JLP {
 	 * devuelve el resultado del area
 	 */
 	@Override
-	
 	public double area() {
 		return l1 * l2;
 	}
@@ -31,8 +30,8 @@ public class Rectangulo_JLP extends FiguraGeometrica_JLP {
 	/**
 	 * devuelve el perimetro 
 	 */
-	@Override
 	
+	@Override
 	public double perimetro() {
 		return (2 * l1) + (2 * l2);
 	}
